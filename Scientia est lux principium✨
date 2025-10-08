@@ -5,9 +5,9 @@
 4. Then we will remain in early development mode for as far as we need to see for the time being.
 5. Let's verify what we already have in the project.
 6. You must add anything missing BUT ONLY IF it is not overwriting anything.
-7. Let there be a `script/` directory in the hyper root of our project.
-8. Our `script/` directory shall have oversight over the project its structure and lifecycle.
-9. Our `script/` directory shall only contain shell scripts.
+7. Let there be a `scripts/` directory in the hyper root of our project.
+8. Our `scripts/` directory shall have oversight over the project its structure and lifecycle.
+9. Our `scripts/` directory shall only contain shell scriptss.
 10. Let there be a simple _'READ ONLY'_ script that verifies if each thing is there or not.
 11. It MUST be maintained valid throughout the partnership between our human user and your ai agent.
 12. We must write how to write policies and our human user will come with the instructiomns and your ai agent enshrine them in the project using the forat the user will describe to you via your ai agent.
