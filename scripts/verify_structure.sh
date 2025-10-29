@@ -7,7 +7,7 @@ repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 required_paths=(
   "AGENTS.md"
   "Scientia est lux principium✨"
-  "script"
+  "scripts"
 )
 
 recommended_paths=(
