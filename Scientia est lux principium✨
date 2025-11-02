@@ -1,13 +1,97 @@
-0. Scientia est lux principium✨.
-1. We MUST NOW initialize here a project together and set the rules and policies.
-2. We will write from the most authoritative file for each agent.
-3. We will bootstrap together a project and we will be in pre development mode for the time being.
-4. Then we will remain in early development mode for as far as we need to see for the time being.
-5. Let's verify what we already have in the project.
-6. You must add anything missing BUT ONLY IF it is not overwriting anything.
-7. Let there be a `scripts/` directory in the hyper root of our project.
-8. Our `scripts/` directory shall have oversight over the project its structure and lifecycle.
-9. Our `scripts/` directory shall only contain shell scriptss.
-10. Let there be a simple _'READ ONLY'_ script that verifies if each thing is there or not.
-11. It MUST be maintained valid throughout the partnership between our human user and your ai agent.
-12. We must write how to write policies and our human user will come with the instructiomns and your ai agent enshrine them in the project using the forat the user will describe to you via your ai agent.
+# Scientia est lux principium✨
+
+Knowledge is the light and the principle. This document establishes the foundational policies governing the genesis_24 repository, defining how human contributors and AI agents collaborate to build, maintain, and evolve this staged workspace template. Every policy herein serves as binding guidance for all participants throughout the project lifecycle.
+
+## 1.0.0 Project Initialization & Authority
+
+This section establishes the collaborative framework between human users and AI agents, defining the authoritative sources of truth and the phased approach to project development. The initialization phase sets the foundation for all subsequent work by creating shared understanding of roles, responsibilities, and governance structures.
+
+### 1.1.0 Collaborative Initialization
+
+The project initialization process requires active partnership between human insight and AI implementation capabilities. This collaborative model ensures that policies reflect human intent while benefiting from AI precision in documentation and enforcement. Both parties share responsibility for establishing clear, maintainable governance structures.
+
+#### 1.1.1 Initialize Project Together
+
+We MUST NOW initialize here a project together and set the rules and policies. This collaborative initialization ensures that both human stakeholders and AI agents understand the project's governance model from inception, creating shared ownership of the foundational policies that guide all subsequent development work.
+
+#### 1.1.2 Authoritative Documentation
+
+We will write from the most authoritative file for each agent. This policy establishes that governance documents serve as the single source of truth, with this policy file (`Scientia est lux principium✨`) holding ultimate authority over project direction, and `AGENTS.md` serving as the canonical contributor guide for operational practices.
+
+### 1.2.0 Development Phases
+
+The project follows a deliberate progression through distinct development phases, each with specific goals and constraints. This phased approach allows the project structure to emerge organically as requirements become clear, avoiding premature architectural decisions while maintaining governance continuity throughout evolution.
+
+#### 1.2.1 Pre-Development Mode
+
+We will bootstrap together a project and we will be in pre development mode for the time being. During pre-development, the focus remains on establishing governance structures, verification systems, and foundational policies without committing to specific technology stacks or implementation details that might constrain future decisions.
+
+#### 1.2.2 Early Development Mode
+
+Then we will remain in early development mode for as far as we need to see for the time being. Early development permits gradual introduction of technology choices, directory structures, and implementation patterns as project requirements crystallize, while maintaining the governance and verification systems established during pre-development.
+
+## 2.0.0 Project Structure & Verification
+
+This section defines the physical organization of the repository and the mechanisms ensuring structural integrity over time. The verification-first approach prioritizes observability and audit trails, enabling both human and AI participants to confidently understand and modify the repository while maintaining compliance with established policies.
+
+### 2.1.0 Structure Audit
+
+Regular structural audits ensure the repository maintains compliance with established policies and conventions. These audits operate in read-only mode, reporting deviations without attempting automatic remediation, thereby preserving human agency over structural modifications while providing clear visibility into the current state.
+
+#### 2.1.1 Verify Current State
+
+Let's verify what we already have in the project. Before making any modifications, agents must audit existing structures using the verification tools provided in the `scripts/` directory, building a clear understanding of the current state and identifying any deviations from policy requirements.
+
+#### 2.1.2 Non-Destructive Additions
+
+You must add anything missing BUT ONLY IF it is not overwriting anything. This policy protects existing work from inadvertent destruction by requiring agents to verify that new additions do not conflict with or replace existing files, directories, or configurations, thereby maintaining an append-only approach to structural changes.
+
+### 2.2.0 Scripts Directory
+
+The `scripts/` directory serves as the operational command center for the repository, housing all automation and verification tools. By centralizing operational scripts in a dedicated location with clear policies governing their behavior, the repository maintains a clean separation between governance, source code, and operational tooling.
+
+#### 2.2.1 Scripts Location
+
+Let there be a `scripts/` directory in the hyper root of our project. The scripts directory resides at the project root (the "hyper root"), making it immediately discoverable and accessible to all participants, and clearly distinguishing operational tooling from source code directories that will emerge during development phases.
+
+#### 2.2.2 Scripts Responsibility
+
+Our `scripts/` directory shall have oversight over the project its structure and lifecycle. Scripts within this directory monitor, verify, and report on repository state throughout all development phases, providing consistent observability mechanisms that evolve alongside the project while maintaining their core mission of structural governance.
+
+#### 2.2.3 Scripts Content Policy
+
+Our `scripts/` directory shall only contain shell scripts. Limiting this directory to POSIX-compliant shell scripts ensures maximum portability across development environments, minimizes external dependencies for critical verification and oversight functions, and maintains clear boundaries between operational tooling and application code written in other languages.
+
+### 2.3.0 Verification System
+
+The verification system provides continuous observability into repository structure and policy compliance. By maintaining read-only verification tools that report rather than remediate, the system empowers both human and AI participants with situational awareness while preserving deliberate human control over structural modifications.
+
+#### 2.3.1 Read-Only Verification
+
+Let there be a simple _'READ ONLY'_ script that verifies if each thing is there or not. The verification script operates in strict read-only mode, examining the repository structure against policy requirements and reporting findings without attempting any modifications, thereby providing a safe, idempotent audit mechanism that can run frequently without risk.
+
+#### 2.3.2 Verification Validity
+
+It MUST be maintained valid throughout the partnership between our human user and your ai agent. As policies evolve and new structural requirements emerge, the verification script must be updated in tandem to accurately reflect current expectations, ensuring that automated audits remain trustworthy and aligned with the latest governance decisions.
+
+## 3.0.0 Policy Writing Framework
+
+This section codifies the meta-policies governing how policies themselves are written, structured, and evolved. By establishing clear conventions for policy documentation, the framework enables systematic growth of governance structures while maintaining consistency, discoverability, and machine-readability throughout the policy canon.
+
+### 3.1.0 Policy Format Guidelines
+
+Policy format guidelines establish the structural conventions that make policies consistent, navigable, and parseable by both humans and AI agents. The hierarchical numbering system combined with corresponding markdown headers creates a policy document that serves as both authoritative reference and machine-readable specification.
+
+#### 3.1.1 Hierarchical Structure
+
+We must write how to write policies and our human user will come with the instructions and your ai agent enshrine them in the project using the format the user will describe to you via your ai agent. This meta-policy recognizes that policy-writing conventions themselves require governance, establishing a collaborative process where human stakeholders define formatting requirements and AI agents implement them consistently throughout the policy documentation.
+
+#### 3.1.2 Three-Level Numbering System
+
+Policies shall be codified using a three-level hierarchical numbering system (X.Y.Z) with corresponding markdown headers:
+
+- Level 1 (X.0.0): Major policy domains use `##` headers
+- Level 2 (X.Y.0): Policy categories use `###` headers  
+- Level 3 (X.Y.Z): Specific policy items use `####` headers
+
+Each header level must be accompanied by at least one paragraph of explanatory text before any child headers appear, ensuring that policies remain human-readable and that the hierarchical structure provides genuine organizational value rather than merely creating visual nesting. Empty lines must appear above and below each content block (but not above the top-level `#` header) to maintain consistent visual separation and readability throughout the document.
